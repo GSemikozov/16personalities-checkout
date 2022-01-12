@@ -41,6 +41,8 @@
             name="cc-name"
             placeholder="E.g. Jane Smith"
             model-value=""
+            autocomplete="cc-name"
+            pattern="[\p{L} \-\.]+"
         />
       </div>
       <div :class="$style.formGroup" v-if="isNotApplePay">

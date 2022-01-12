@@ -7,6 +7,9 @@
           placeholder="1234 1234 1234 1234"
           name="cc-number"
           model-value=""
+          autocomplete="cc-number"
+          inputmode="numeric"
+          pattern="[\d ]{10,30}"
       />
       <span :class="$style.cardNumberIcons">
         <img
@@ -26,6 +29,8 @@
           placeholder="MM / YY"
           name="cc-exp"
           model-value=""
+          autocomplete="cc-exp"
+          maxlength="5"
       />
     </div>
     <div :class="$style.cvcCode">
@@ -34,6 +39,9 @@
           placeholder="CVC code"
           name="cc-csc"
           model-value=""
+          autocomplete="cc-csc"
+          inputmode="numeric"
+          maxlength="3"
       />
     </div>
   </fieldset>
