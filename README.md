@@ -1,6 +1,6 @@
 # 16P Checkout page
 
-small test assignment. Public link available on (netlify)[].
+Small test assignment. Publicly available on (netlify)[https://16personalities-checkout.netlify.app/].
 
 ## Done
 
@@ -28,6 +28,8 @@ All these things can and must be improved according to specific rules and code-s
 
  - Tooltip background shape (can't be extracted from Zeplin)
  - passing html (link) via text string inside Info section
+ - checkboxes do nothing (don't change state of other components)
+ - didn't implement tooltip for question mark icon, cos' usually better to use some specific library or package.
 
 ## Todo
 
