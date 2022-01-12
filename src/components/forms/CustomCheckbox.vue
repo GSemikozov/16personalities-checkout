@@ -72,6 +72,7 @@
   font-size: 18px;
   line-height: 1.67;
   color: var(--foregroundDefault);
+  user-select: none;
 }
 </style>
 
