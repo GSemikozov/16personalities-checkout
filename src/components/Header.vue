@@ -1,13 +1,13 @@
 <template>
   <header :class="$style.header" role="banner">
-    <div class="container" :class="$style.inner">
+    <Container :class="$style.inner">
       <a href="/" :class="$style.logo">
         <Logo />
       </a>
       <div :class="$style.title">
         {{ title }}
       </div>
-    </div>
+    </Container>
   </header>
 </template>
 
@@ -38,10 +38,11 @@
 
 <script>
 import Logo from "./Logo.vue";
+import Container from "./Container.vue";
 
 export default {
   name: 'Header',
-  components: { Logo },
+  components: { Container, Logo },
   props: {
     title: String
   }

@@ -1,13 +1,13 @@
 <template>
   <footer  :class="$style.footer" role="contentinfo">
-    <div class="container">
+    <Container>
       <p :class="$style.copyright">©2011-2021 NERIS Analytics Limited</p>
       <nav :class="$style.footerNav">
         <Link href="#">Contact</Link>
         <Link href="#">Terms & Conditions</Link>
         <Link href="#">Privacy Policy</Link>
       </nav>
-    </div>
+    </Container>
   </footer>
 </template>
 
@@ -39,9 +39,10 @@
 
 <script>
 import Link from "./Link.vue";
+import Container from "./Container.vue";
 
 export default {
   name: 'Footer',
-  components: { Link }
+  components: { Container, Link }
 }
 </script>

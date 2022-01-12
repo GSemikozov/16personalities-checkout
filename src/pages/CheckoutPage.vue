@@ -3,7 +3,7 @@
     <Header title="Checkout" />
     <Main :class="$style.checkoutPageWrapper">
       <PageNav />
-      <div class="container">
+      <Container>
         <div :class="$style.checkoutFormWrapper">
           <CheckoutForm />
           <div>
@@ -12,10 +12,8 @@
           </div>
         </div>
         <Delimiter />
-        <div class="container">
-          <InfoSection />
-        </div>
-      </div>
+        <InfoSection />
+      </Container>
     </Main>
     <Footer />
   </Layout>
@@ -44,10 +42,12 @@ import OrderSummary from "../components/OrderSummary.vue";
 import Review from "../components/Review.vue";
 import Delimiter from "../components/Delimiter.vue";
 import InfoSection from "../components/InfoSection.vue";
+import Container from "../components/Container.vue";
 
 export default {
   name: 'CheckoutPage',
   components: {
+    Container,
     InfoSection,
     Delimiter,
     Review,
