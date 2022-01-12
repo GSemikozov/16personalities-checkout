@@ -9,7 +9,7 @@ Small test assignment. Publicly available on [https://16personalities-checkout.n
 - show different - but simple - types of how to work with assets
 - full compliance with the design
 
-ps. in forms autocompletion switched on by default, the main thing there is that name attributes has correct values. 
+ps. in forms autocomplete switched on by default, the main thing there is that names attributes has correct values. 
 
 ## Critical notes
 
