@@ -8,8 +8,8 @@ Small test assignment. Publicly available on [https://16personalities-checkout.n
 - decomposition into small components
 - show different - but simple - types of how to work with assets
 - full compliance with the design
+- autocomplete for specific inputs
 
-ps. in forms autocomplete switched on by default, the main thing there is that names attributes has correct values. 
 
 ## Critical notes
 
