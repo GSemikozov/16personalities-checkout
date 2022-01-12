@@ -40,9 +40,9 @@
             id="card-name"
             name="cc-name"
             placeholder="E.g. Jane Smith"
-            model-value=""
             autocomplete="cc-name"
             pattern="[\p{L} \-\.]+"
+            model-value=""
         />
       </div>
       <div :class="$style.formGroup" v-if="isNotApplePay">

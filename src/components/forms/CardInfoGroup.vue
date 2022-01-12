@@ -5,10 +5,10 @@
       <BaseInput
           placeholder="1234 1234 1234 1234"
           name="cc-number"
-          model-value=""
           autocomplete="cc-number"
           inputmode="numeric"
           pattern="[\d ]{10,30}"
+          model-value=""
       />
       <span :class="$style.cardNumberIcons">
         <img
@@ -26,19 +26,19 @@
       <BaseInput
           placeholder="MM / YY"
           name="cc-exp"
-          model-value=""
           autocomplete="cc-exp"
           maxlength="5"
+          model-value=""
       />
     </div>
     <div :class="$style.cvcCode">
       <BaseInput
           placeholder="CVC code"
           name="cc-csc"
-          model-value=""
           autocomplete="cc-csc"
           inputmode="numeric"
           maxlength="3"
+          model-value=""
       />
     </div>
   </fieldset>
