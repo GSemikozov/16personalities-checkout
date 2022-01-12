@@ -38,6 +38,7 @@
           autocomplete="cc-csc"
           inputmode="numeric"
           maxlength="3"
+          pattern="\d*"
           model-value=""
       />
     </div>
