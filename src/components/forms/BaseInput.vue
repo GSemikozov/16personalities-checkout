@@ -10,6 +10,10 @@
         @input="updateInput"
         :class="$style.input"
         :placeholder="placeholder"
+        :autocomplete="autocomplete"
+        :pattern="pattern"
+        :maxlength="maxlength"
+        :inputmode="inputmode"
     />
   </div>
 </template>
@@ -71,7 +75,11 @@ export default {
     type: {
       type: String,
       default: "text",
-    }
+    },
+    autocomplete: String,
+    pattern: String,
+    maxlength: [String, Number],
+    inputmode: String
   },
   methods: {
     updateInput(event) {
