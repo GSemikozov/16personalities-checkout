@@ -1,6 +1,6 @@
 # 16P Checkout page
 
-Small test assignment. Publicly available on (netlify)[https://16personalities-checkout.netlify.app/].
+Small test assignment. Publicly available on [https://16personalities-checkout.netlify.app/](netlify).
 
 ## Done
 
