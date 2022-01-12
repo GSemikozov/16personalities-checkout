@@ -3,7 +3,6 @@
     <legend class="legend" :class="$style.cardInfoTitle">Card information</legend>
     <div :class="$style.cardNumber">
       <BaseInput
-          type="text"
           placeholder="1234 1234 1234 1234"
           name="cc-number"
           model-value=""
@@ -25,7 +24,6 @@
     </div>
     <div :class="$style.expireDate">
       <BaseInput
-          type="text"
           placeholder="MM / YY"
           name="cc-exp"
           model-value=""
@@ -35,7 +33,6 @@
     </div>
     <div :class="$style.cvcCode">
       <BaseInput
-          type="text"
           placeholder="CVC code"
           name="cc-csc"
           model-value=""
