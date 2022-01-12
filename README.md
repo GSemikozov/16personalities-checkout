@@ -22,7 +22,7 @@ Basically, as a react-developer, I prefer it's characteristic best practices:
 
 <b>General conclusion</b>
 
-All these things can and must be improved according to specific rules and code-style that is accepted in the team by default (including such kind tools as linters and prettier).
+All these things can and must be improved according to specific rules and code-style that is accepted in the team by default (including such good tools as linters and prettier).
 
 ## Not done
 
